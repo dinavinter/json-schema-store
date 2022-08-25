@@ -1,12 +1,12 @@
 {
   "type": "object",
   "required": [
-    "first_name",
+    "name",
     "age",
     "email"
   ],
   "properties": { 
-    "firstName": {
+    "name": {
       "title": "Name",
       "type": "string",
       "faker": "name.firstName"
