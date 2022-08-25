@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "required": [
+    "first_name",
+    "age",
+    "email"
+  ],
+  "properties": { 
+    "firstName": {
+      "title": "Name",
+      "type": "string",
+      "faker": "name.firstName"
+    }, 
+    "age": {
+      "title": "Age",
+      "type": "integer",
+      "maximum": 70,
+      "minimum": 18
+    },
+    "email": {
+      "title": "Email", 
+      "type": "string",
+      "faker": "internet.email"
+    }, 
+    "avatar": {
+      "title": "Avatar", 
+      "type": "string",
+      "faker": "internet.avatar"
+    }
+  }
+}
