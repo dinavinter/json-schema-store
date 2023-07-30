@@ -1,12 +1,11 @@
 {
-
   "type": "object",
   "additionalProperties": false,
   "properties": {
     "phonenumber": {
-      "type" : "string",
+      "type": "string",
       "x-verifiable": {
-        "provider" : "https://888092930089.eu1.my.gigya-ext.com/authn/sms/otp"
+        "provider": "https://888092930089.eu1.my.gigya-ext.com/authn/sms/otp"
       }
     },
     "data": {
@@ -19,7 +18,7 @@
         "favoriteFood": {
           "type": "string"
         },
-        "customer-id" : {
+        "customer-id": {
           "type": "string"
         }
       }
@@ -29,9 +28,9 @@
       "additionalProperties": false,
       "properties": {
         "email": {
-          "type" : "string",
+          "type": "string",
           "x-verifiable": {
-            "provider" : "https://888092930089.eu1.my.gigya-ext.com/authn/email/otp"
+            "provider": "https://888092930089.eu1.my.gigya-ext.com/authn/email/otp"
           }
         },
         "firstName": {
