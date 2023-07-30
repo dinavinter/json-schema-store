@@ -33,7 +33,7 @@
           "x-verifiable": {
             "provider" : "https://888092930089.eu1.my.gigya-ext.com/authn/email/otp"
           }
-        }
+        },
         "firstName": {
           "type": "string"
         },
