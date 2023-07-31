@@ -1,4 +1,4 @@
-{
+#.shema.json{
   "type": "object",
   "additionalProperties": false,
   "properties": {
